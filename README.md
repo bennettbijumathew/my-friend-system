@@ -3,7 +3,7 @@
 ![Home Page](https://imgur.com/3MvVTc5.png "Home Page")
 
 ## Description
-My Friend System is an application that provides a user a list of friends. 
+My Friend System is an application that provides a user a list of friends. This website was created as a result of an assignment in university
 
 The key features of the website include:
 - Creating and logging in into accounts

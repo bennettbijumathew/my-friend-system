@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+:root {
+    --background: #121212;
+    --foreground: #414141;
+    --text: #ececec;
+    --border: var(--text);
+    --primary: #a72c2c;
+    --secondary: #741515;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,body  {
+    height: 100%;
+}
+
+.body {
+    background: var(--background);
+    background-image: radial-gradient(var(--foreground), 1px, transparent 0);
+    background-size: 20px 20px;
+    color: var(--text);
+
+    display: flex;
+    flex-direction: column;
+    font-family: "Inconsolata", monospace;
+}
+
+.header {
+    text-align: center;
+
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+}
+
+.header h1 {
+    font-size: 1.4em;
+    font-weight: 700;
+}
+
+.header p {
+    font-size: 1.1em;
+    font-weight: 300;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    border: 1px solid var(--border);
+    
+    width: 30%;
+
+    padding: 1em;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+}
+
+.container h2, .inputs label {
+    font-size: 1.1em;
+    font-weight: 700;
+}
+
+.container p {
+    font-size: 1em;
+    font-weight: 300;
+}
+
+.inputs {
+    display: flex;
+    flex-direction: column;
+}
+
+.inputs label {
+    margin-bottom: 0.2em;
+} 
+
+.inputs input[type="text"], .inputs input[type="password"] {
+    font-family: "Inconsolata", monospace;
+    font-size: 1em;
+    font-weight: 300;
+    
+    background-color: var(--background);
+    color: var(--text);
+
+    border: none;
+    border-bottom: 1px dashed var(--border);
+
+    padding-bottom: 0.2em;
+} 
+
+.buttons {
+    width: calc(30% + 2em);
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+}
+
+.page-buttons {
+    display: flex;
+    justify-content: center;
+
+    margin-top: 1em;
+}
+
+.btn {
+    height: 30px;
+
+    background-color: var(--primary);
+    color: var(--text);
+    border: 1px solid var(--border);
+    
+    font-family: "Inconsolata", monospace;
+    font-size: 1em;
+    font-weight: 500;
+}
+
+.btn a {
+    color: var(--text);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    height: 100%;
+    width: 100%;
+}
+
+.btn:hover {
+    filter: brightness(90%);
+    cursor: pointer;
+}
+
+.btn:active {
+    filter: brightness(80%);
+}
+
+.navigation-btn {
+    width: 25%;
+
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+}
+
+.message-btn {
+    width: 20%;
+
+    margin-top: 1em;
+}
+
+.page-btn {
+    width: 30px;
+
+    margin-left: 0.2em;
+    margin-right: 0.2em;
+}
+
+.friend-btn {
+    height: 30px;
+    width: 80px;
+}
+
+.user {
+    display: flex;
+}
+
+.friends section {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 0.4em; 
+    padding-bottom: 0.4em; 
+    border-bottom: 1px dotted white;
+}
+
+.friends section:first-child {
+    padding-top: 0em; 
+}
+
+.friends section:last-child {
+    border-bottom: none;  
+    padding-bottom: 0em;   
+}
+
+.friend-detail h2 {
+    font-size: 1.1em;
+}
+
+.friend-detail p {
+    font-size: 0.9em;
+}

@@ -1,6 +1,6 @@
 # my-friend-system
 
-![Home Page](https://imgur.com/3MvVTc5 "Home Page")
+![Home Page](https://imgur.com/3MvVTc5.png "Home Page")
 
 ## Description
 My Friend System is an application that provides a user a list of friends. 
@@ -32,6 +32,6 @@ Before setting up the project, you would need these things:
 - Once the settings were updated, the website is able to be accesed via url, an example of this is 'localhost/my-friend-system/index.php'.
 
 # Website Photos
-![Add Friends Page](https://imgur.com/qQooRT5 "Add Friends Page")
-![Friends List Page](https://imgur.com/QSOdx3f "Friends List Page")
-![Log In Page](https://imgur.com/9yNiB6r "Friends List Page")
+![Add Friends Page](https://imgur.com/qQooRT5.png "Add Friends Page")
+![Friends List Page](https://imgur.com/QSOdx3f.png "Friends List Page")
+![Log In Page](https://imgur.com/9yNiB6r.png "Friends List Page")

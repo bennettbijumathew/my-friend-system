@@ -1,6 +1,6 @@
 # my-friend-system
 
-![Home Page](https://imgur.com/3MvVTc5.png "Home Page")
+![Home Page](https://github.com/user-attachments/assets/d9fb265e-3751-46f2-91ce-bac424377e94)
 
 ## Description
 My Friend System is an application that provides a user a list of friends. This website was created as a result of an assignment in university
